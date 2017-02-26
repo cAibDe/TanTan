@@ -15,6 +15,7 @@
 		9AB8F5051E5A903200C7A98F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AB8F5031E5A903200C7A98F /* LaunchScreen.storyboard */; };
 		9AB8F5101E5A903200C7A98F /* TanTanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB8F50F1E5A903200C7A98F /* TanTanTests.m */; };
 		9AB8F51B1E5A903200C7A98F /* TanTanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB8F51A1E5A903200C7A98F /* TanTanUITests.m */; };
+		9AB8F52A1E5A90A500C7A98F /* TanTanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB8F5291E5A90A500C7A98F /* TanTanView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		9AB8F5161E5A903200C7A98F /* TanTanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TanTanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AB8F51A1E5A903200C7A98F /* TanTanUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TanTanUITests.m; sourceTree = "<group>"; };
 		9AB8F51C1E5A903200C7A98F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AB8F5281E5A90A500C7A98F /* TanTanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TanTanView.h; path = Assets.xcassets/TanTanView.h; sourceTree = "<group>"; };
+		9AB8F5291E5A90A500C7A98F /* TanTanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TanTanView.m; path = Assets.xcassets/TanTanView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				9AB8F4F91E5A903200C7A98F /* AppDelegate.m */,
 				9AB8F4FB1E5A903200C7A98F /* ViewController.h */,
 				9AB8F4FC1E5A903200C7A98F /* ViewController.m */,
+				9AB8F5281E5A90A500C7A98F /* TanTanView.h */,
+				9AB8F5291E5A90A500C7A98F /* TanTanView.m */,
 				9AB8F4FE1E5A903200C7A98F /* Main.storyboard */,
 				9AB8F5011E5A903200C7A98F /* Assets.xcassets */,
 				9AB8F5031E5A903200C7A98F /* LaunchScreen.storyboard */,
@@ -276,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AB8F52A1E5A90A500C7A98F /* TanTanView.m in Sources */,
 				9AB8F4FD1E5A903200C7A98F /* ViewController.m in Sources */,
 				9AB8F4FA1E5A903200C7A98F /* AppDelegate.m in Sources */,
 				9AB8F4F71E5A903200C7A98F /* main.m in Sources */,
