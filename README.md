@@ -47,3 +47,5 @@ viewForItemAtIndex:(NSInteger)index
 这就是相应的代理方法
 # GIF演示
 ![探探.gif](http://upload-images.jianshu.io/upload_images/2368708-878318fdb11db7c5.gif?imageMogr2/auto-orient/strip)
+# 更新
+当页面快速滑动的时候视图会出现BUG，已修复
