@@ -56,7 +56,7 @@
     UIView *firstView = view;
     if (firstView == nil) {
         CGSize size = tantan.frame.size;
-        CGRect frame = CGRectMake(0, 0, size.width-30, size.height-20);
+        CGRect frame = CGRectMake(0, 0, size.width, size.height);
         firstView = [[UIView alloc]initWithFrame:frame];
         
     

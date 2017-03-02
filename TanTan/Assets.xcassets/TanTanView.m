@@ -274,9 +274,19 @@ static const CGFloat kRotationAngle = M_PI / 8;
         }
     }
     if (newView) {
-        newView.frame = [self.itemArray.firstObject frame];;
+        if (CGSizeEqualToSize(self.frame.size, [self.itemArray.firstObject frame].size)) {
+            newView.frame = [self.itemArray.firstObject frame];
+        }else{
+            newView.frame = CGRectMake([self.itemArray.firstObject frame].origin.x,
+                                    [self.itemArray.firstObject frame].origin.y,
+                                    self.frame.size.width,
+                                    self.frame.size.height);
+        }
+        
         [self.itemArray addObject:newView];
     }
+    NSLog(@"%@",NSStringFromCGRect(newView.frame));
+    
     
     if ([self.delegate respondsToSelector:@selector(tantan:didLeftRemovedItemAtIndex:)]) {
         [self.delegate tantan:self didLeftRemovedItemAtIndex:_currentIndex];
